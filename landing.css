@@ -1,0 +1,89 @@
+body {
+    background: url(bk.jpg) no-repeat center center/cover;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    /* border: 1px solid red; */
+    display: inline-block;
+    /*compact the border acc to line*/
+    position: relative;
+    left: 25px;
+    top: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.left img {
+    /*logo*/
+    width: 63px;
+}
+
+.navbar {
+    background-color: brown;
+    border-radius: 4px;
+    margin: -15px auto;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 16px 9px;
+}
+
+.navbar li a {
+    padding: 3px 31px;
+    text-decoration: none;
+    font-size: 28px;
+    color: azure;
+}
+
+.navbar li a :hover {
+    /*not responding*/
+    color: blue;
+}
+
+
+section {
+    padding: 0 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BOX {
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn1 {
+    background-color: #00000040;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 450px;
+}
+
+.btn1:hover {
+    background-color: #0037ffab;
+    color: black;
+}
+
+.menu {
+    background-color: black;
+    margin: 0px;
+}
